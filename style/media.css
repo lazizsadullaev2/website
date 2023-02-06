@@ -1,0 +1,139 @@
+@media(prefers-color-scheme: dark ) {
+    :root{
+        --primary-background: #151437;
+        --primary-text-color: #FFFFFF ; 
+
+    } 
+
+
+    .main__works-text{
+        color: var(--primary-text-color);
+    }
+    
+
+    .main__works-link.active{
+        color: var(--primary-background);
+    }
+
+    .main__works-link,.main__works-content{
+        background: var(--primary-background);
+    }
+
+
+    .header__nav-logo::before {
+        content: url("../img/LOGO_DARK.png");
+    }
+
+    body {
+        background: var(--primary-background);
+    }
+
+    .header__content-text{
+        color: var(--primary-text-color);
+    }
+
+
+    .main__about-content{
+        box-shadow: 0px 0px 5px rgba(113, 119, 241, 0.15);
+        background: var(--primary-background);
+    }
+   
+
+    .main__about-description{
+        color: #FFFFFF;
+    }
+
+    .main__about-text{
+        color: white;
+        background: #7177F1;
+    }
+
+    .accordion-button.collapsed{
+        background: var(--primary-background) !important;
+    }    
+
+   .footer__link, .footer__contact{
+    color: var(--primary-text-color);
+   }
+}
+
+
+@media(max-width: 992px) {
+
+    .main__works-content{
+        margin-top: 30px;
+    }
+
+    .capabilities__img{
+        margin-top: 50px;
+    }
+
+
+    .main__about-img{
+        width: 100%;
+    }
+
+
+    .header__nav-button, .header__nav-link{
+        margin-right: 0;
+        margin-bottom: 15px;
+        
+    }
+
+
+
+    .main__about-content{
+        margin-top: 30px;
+    }
+
+
+    .main__about-text{
+        top: 0;
+        left: 240px;
+    }
+
+    .rectangle, .shape{
+        display: none;
+    }
+}
+
+
+@media(max-width: 375px){
+    .header__skills-title{
+        font-size: 16px;
+    }
+
+
+
+}
+
+@media(max-width: 475px){
+
+    .main__works-img{
+        object-fit: contain;
+    }
+
+    .main__works-name{
+        margin-top: 20px;
+
+    }
+     .main__about-text{
+        padding: 20px;
+        font-size: 16px;
+        top: -20px;
+        left: 35px;
+     }
+
+     .main__about-link{
+        margin: 0 auto;
+     } 
+     
+     .main__about-title{
+        line-height: 45px;
+    }
+}
+
+
+
+
+
